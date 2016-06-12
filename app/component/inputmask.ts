@@ -12,7 +12,9 @@ declare var $:any;
 })
 
 export class Inputmask implements AfterViewInit {
-
+    
+    
+    
     @Input() placeholder:any;
 
     @Input() time:any;
@@ -26,6 +28,8 @@ export class Inputmask implements AfterViewInit {
     @Input() money:any;
 
     @Input() ip_address:any;
+    
+    
 
 
     ngAfterViewInit():any {
