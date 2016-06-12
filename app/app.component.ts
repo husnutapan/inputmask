@@ -4,7 +4,7 @@ import {Component} from '@angular/core';
 @Component({
     selector: 'my-app',
     template:`
-        <my-mask></my-mask>
+       Hello World!!!
     `,
 })
 export class AppComponent {
